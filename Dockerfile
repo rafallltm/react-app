@@ -16,6 +16,8 @@ COPY . .
 # Construir o aplicativo React
 RUN npm run build
 
+
+
 # Estágio de produção
 FROM nginx:alpine
 
